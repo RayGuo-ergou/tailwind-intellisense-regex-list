@@ -343,7 +343,7 @@ Credits: [bradennapier](https://github.com/bradennapier)
 #### tailwind-variants
 ```json
 "tailwindCSS.experimental.classRegex": [
-  ["tv\\(([^)]*)\\)", "{?\\s?[\\w].*:\\s*?[\"'`]([^\"'`]*).*?,?\\s?}?"]
+  ["tv\\({([^]*?)}\\)", "[\"'`]([^\"'`]*)[\"'`]"]
 ]
 
 # Take note of the outer square brackets!
